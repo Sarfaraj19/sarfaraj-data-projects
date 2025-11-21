@@ -1,0 +1,12 @@
+your-portfolio/
+├─ index.html
+├─ styles.css
+├─ script.js
+├─ assets/
+│  ├─ avatar.jpg        (your photo or avatar)
+│  ├─ logo.svg
+│  └─ project-thumb-1.png
+├─ projects/
+│  ├─ powerbi-report-1.html  (optional detailed project pages)
+│  └─ ...
+└─ README.md
