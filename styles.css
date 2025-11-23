@@ -73,3 +73,9 @@ html,body{height:100%;margin:0;background:var(--bg);line-height:1.5}
   .nav{display:none}
   .nav-toggle{display:block}
 }
+
+.nav a.active {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 8px;
+}
+
