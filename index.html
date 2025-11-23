@@ -9,55 +9,62 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
- <header class="site-header">
-  <div class="container header-inner">
+  <!-- HEADER -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Sarfaraj Shaikh</h1>
+        <p class="subtitle">Data Analyst • Power BI • GenAI • Supply Chain</p>
+      </div>
 
-    <div class="brand">
-      <h1>Sarfaraj Shaikh</h1>
-      <p class="subtitle">Data Analyst • Power BI • GenAI • Supply Chain</p>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#intro">Introduction</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+
+      <div class="header-contact" aria-hidden="false">
+        <a href="mailto:srajcoep19@gmail.com" title="Email">📧 Email</a>
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener" title="LinkedIn">🔗 LinkedIn</a>
+        <a href="tel:+919421478686" title="Call">📞 Call</a>
+      </div>
     </div>
-
-    <nav class="nav">
-      <a href="#intro">Introduction</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-    </nav>
-
-    <div class="header-contact">
-      <a href="mailto:srajcoep19@gmail.com">📧 Email</a>
-      <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">🔗 LinkedIn</a>
-      <a href="tel:+919421478686">📞 Call</a>
-    </div>
-
-  </div>
-</header>
+  </header>
 
   <main>
     <!-- HERO / INTRO -->
-  <section id="intro" class="hero container">
+    <section id="intro" class="hero container">
+      <div class="hero-left">
+        <h2>Hello — I'm Sarfaraj</h2>
 
-  <div class="hero-left">
-    <h2>Hello — I'm Sarfaraj</h2>
+        <p class="lead">
+          Data Analyst with 8+ years of experience in operations, supply chain, and banking.
+          I build Power BI dashboards, GenAI agents, and automated data pipelines that turn
+          raw data into actionable insights and measurable impact.
+        </p>
 
-    <p class="lead">
-      Data Analyst with 8+ years of experience in operations, supply chain, banking  
-      and analytics. I build Power BI dashboards, GenAI agents and automated data  
-      workflows to surface insights and reduce manual effort.
-    </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <!-- resume link uses uploaded resume path; replace with your hosted path when deployed -->
+          <a class="btn outline" href="/mnt/data/Sarfaraj_Resume_DA.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </div>
 
-    <div class="hero-buttons">
-      <a class="btn primary" href="#projects">View Projects</a>
-      <a class="btn outline" href="Sarfaraj_Resume_DA.pdf" target="_blank">Download Resume</a>
-    </div>
-  </div>
+        <ul class="quick-stats">
+          <li><strong>8+</strong> years experience</li>
+          <li><strong>Power BI</strong> — 40+ dashboards</li>
+          <li><strong>GenAI</strong> agents & automation</li>
+        </ul>
+      </div>
 
-  <div class="hero-right">
-    <img src="assets/sarfaraj-photo.jpg" alt="Sarfaraj Shaikh" class="hero-photo">
-  </div>
-
-</section>
+      <div class="hero-right">
+        <!-- using the uploaded photo path you provided; when moving to GitHub, replace src with assets/sarfaraj-photo.jpg -->
+        <img src="/mnt/data/IMG20231201124927.jpg" alt="Sarfaraj Shaikh" class="hero-photo" loading="lazy">
+      </div>
+    </section>
 
     <!-- PROJECTS -->
     <section id="projects" class="container section">
@@ -65,59 +72,56 @@
       <p class="muted">Power BI dashboards, automation solutions and AI-driven analytics.</p>
 
       <div class="projects-grid">
-        <!-- Project 1 -->
+        <!-- Card 1 -->
         <article class="project-card">
-          <img src="assets/project-thumb-1.png" alt="Data Governance dashboards" />
+          <img loading="lazy" src="assets/doctors-performamnce-bi.png.png" alt="Data Governance dashboards">
           <div class="card-body">
             <h3>Enterprise Data Governance Dashboards</h3>
-            <p>Designed 17+ governance dashboards for data quality, issue management and reconciliation across enterprise platforms (Power BI & ThoughtSpot). :contentReference[oaicite:2]{index=2}</p>
+            <p>Designed 17+ governance dashboards for data quality, issue management and reconciliation across enterprise platforms (Power BI & ThoughtSpot).</p>
             <div class="card-actions">
-              <!-- use your published report link or GitHub repo -->
-              <a class="btn small" href="https://app.powerbi.com/..." target="_blank">Open Report</a>
-              <a class="btn ghost" href="projects/data-governance.html">Details</a>
+              <a class="btn small" href="assets/doctors-performamnce-bi.png.png" download>Download Image</a>
+              <a class="btn ghost" href="#projects">Details</a>
             </div>
           </div>
         </article>
 
-        <!-- Project 2 -->
+        <!-- Card 2 -->
         <article class="project-card">
-          <img src="assets/project-thumb-2.png" alt="Power BI procurement" />
+          <img loading="lazy" src="assets/financial-performance-bi.png.png" alt="Spend Analytics & Procurement">
           <div class="card-body">
             <h3>Spend Analytics & Procurement Dashboards</h3>
-            <p>Spend analytics and procurement dashboards for 30+ plants enabling drill-down by vendor, material groups and regions. (Kohler project). :contentReference[oaicite:3]{index=3}</p>
+            <p>Spend analytics dashboards for plant-level spend monitoring, vendor analysis and cost optimization (Kohler project).</p>
             <div class="card-actions">
-              <a class="btn small" href="projects/spend-analytics.html">Details</a>
+              <a class="btn small" href="#projects">Details</a>
               <a class="btn ghost" href="https://github.com/yourusername/spend-analytics">Code</a>
             </div>
           </div>
         </article>
 
-        <!-- Project 3 -->
+        <!-- Card 3 (placeholder image if you add more) -->
         <article class="project-card">
-          <img src="assets/project-thumb-3.png" alt="Process parameters" />
+          <div class="project-thumb-empty">No image</div>
           <div class="card-body">
             <h3>Process Parameters Dashboard</h3>
-            <p>Connected MES system with SQL & Power BI to audit process failures and identify production bottlenecks (Kohler Italy & India). :contentReference[oaicite:4]{index=4}</p>
+            <p>Connected MES & SQL to Power BI to audit process failures, identify bottlenecks and reduce downtime.</p>
             <div class="card-actions">
-              <a class="btn small" href="projects/process-parameters.html">Details</a>
+              <a class="btn small" href="#projects">Details</a>
             </div>
           </div>
         </article>
 
-        <!-- Add more project cards similarly -->
       </div>
     </section>
 
     <!-- EXPERIENCE -->
     <section id="experience" class="container section">
       <h2>Experience</h2>
-
       <div class="timeline">
         <div class="timeline-item">
           <div class="time">07/2024 - Present</div>
           <div class="content">
             <h4>Data Scientist — Bank of New York</h4>
-            <p>Designing enterprise data governance dashboards and AI agents (Eliza GenAI) to monitor KPIs and automate validations. Built process automation and stakeholder training programs. :contentReference[oaicite:5]{index=5}</p>
+            <p>Designing enterprise data governance dashboards and GenAI agents to automate KPI monitoring and validation.</p>
           </div>
         </div>
 
@@ -125,7 +129,7 @@
           <div class="time">10/2022 – 07/2024</div>
           <div class="content">
             <h4>Sr. Executive - Data Analyst — Kohler Co</h4>
-            <p>Designed 10+ Power BI reports for procurement, operations and supply chain; built canvas apps for 800+ employees; led digitalization efforts. :contentReference[oaicite:6]{index=6}</p>
+            <p>Built Power BI reports for procurement & operations, led digitalization efforts and canvas app rollouts.</p>
           </div>
         </div>
 
@@ -133,7 +137,7 @@
           <div class="time">07/2017 – 10/2022</div>
           <div class="content">
             <h4>SCM Analyst — Husqvarna & Epiroc Group</h4>
-            <p>Built 15+ Power BI reports for order management and inventory; led ERP migration projects; improved forecast accuracy by 27%. :contentReference[oaicite:7]{index=7}</p>
+            <p>Power BI reporting for order management, inventory analytics and ERP migration support.</p>
           </div>
         </div>
       </div>
@@ -146,9 +150,9 @@
         <li>Power BI & ThoughtSpot</li>
         <li>Azure Data Factory</li>
         <li>GenAI Agents, Prompt Engineering</li>
-        <li>SQL, Python (basic)</li>
-        <li>Advanced Excel, Power Query, VBA</li>
-        <li>Snowflake, Collibra, GitLab</li>
+        <li>SQL, Python</li>
+        <li>Advanced Excel, Power Query</li>
+        <li>Snowflake, Collibra</li>
         <li>Power Automate, Power Apps</li>
       </ul>
     </section>
@@ -156,40 +160,22 @@
     <!-- CONTACT -->
     <section id="contact" class="container section">
       <h2>Contact</h2>
-      <p>Interested in collaborating or want to see more dashboards? Reach out.</p>
+      <p>If you'd like to see more dashboards or collaborate, reach out.</p>
 
-      <form id="contactForm" class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-        <label>
-          <span>Name</span>
-          <input name="name" required>
-        </label>
-
-        <label>
-          <span>Email</span>
-          <input name="email" type="email" required>
-        </label>
-
-        <label>
-          <span>Message</span>
-          <textarea name="message" rows="4" required></textarea>
-        </label>
-
-        <div class="form-actions">
-          <button class="btn primary" type="submit">Send Message</button>
-          <a href="mailto:srajcoep19@gmail.com" class="btn outline">Email Directly</a>
-        </div>
-      </form>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:srajcoep19@gmail.com">Email Me</a>
+        <a class="btn outline" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Sarfaraj Shaikh — Data Portfolio • Built with ♥</p>
-      <p class="muted">Resume source: uploaded resume. :contentReference[oaicite:8]{index=8}</p>
+      <p>© <span id="year"></span> Sarfaraj Shaikh — Data Portfolio</p>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
