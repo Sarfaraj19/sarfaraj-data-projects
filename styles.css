@@ -186,11 +186,11 @@ body {
 }
 
 .hero-photo {
-  width: 320px;
-  height: 380px;
+  width: 260px;
+  height: 260px;      /* square photo */
   object-fit: cover;
-  border-radius: 16px;
-  box-shadow: 0 14px 48px rgba(8, 20, 40, 0.12)
+  border-radius: 20px;   /* you can change to 10px or 50% for circle */
+  box-shadow: 0 14px 48px rgba(8, 20, 40, 0.12);
 }
 
 /* Projects */
