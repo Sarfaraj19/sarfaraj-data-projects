@@ -179,9 +179,10 @@ body {
 }
 
 .hero-right {
-  flex: 0 0 320px;
+  flex: 0 0 260px;
   display: flex;
-  justify-content: center
+  justify-content: flex start ;
+  align-items : flex start ;
 }
 
 .hero-photo {
