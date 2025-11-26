@@ -134,11 +134,12 @@ body {
 /* Hero */
 .hero {
   display: flex;
-  align-items: center;
+  align-items: flex-start;     /* aligns photo to same top line */
   justify-content: space-between;
-  padding: 60px 0;
-  gap: 40px
+  padding: 40px 0;
+  gap: 20px;
 }
+
 
 .hero-left {
   flex: 1.2
@@ -179,18 +180,20 @@ body {
 }
 
 .hero-right {
-  flex: 0 0 260px;
+  flex: 0 0 220px;   /* narrower, pulls image closer */
   display: flex;
-  justify-content: flex start ;
-  align-items : flex start ;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;   /* add small gap between text and image */
 }
 
+
 .hero-photo {
-  width: 260px;
-  height: 260px;      /* square photo */
+  width: 200px;
+  height: 240px;   /* closer to portrait shape */
   object-fit: cover;
-  border-radius: 20px;   /* you can change to 10px or 50% for circle */
-  box-shadow: 0 14px 48px rgba(8, 20, 40, 0.12);
+  border-radius: 14px;
+  box-shadow: 0 14px 48px rgba(8, 20, 40, 0.10);
 }
 
 /* Projects */
