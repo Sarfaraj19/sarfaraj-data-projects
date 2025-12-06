@@ -12,39 +12,54 @@
 </head>
 
 <body class="one-pager-body">
-    <!-- HEADER (Same as index.html) -->
+
+    <!-- HEADER -->
     <header class="site-header" id="top">
         <div class="container header-inner">
+
             <div class="brand">
                 <h1>Sarfaraj Shaikh</h1>
-                <p class="subtitle">Data Analyst • Power BI • ThoughtSpot • GenAI • Data Solutions • Analytics Platforms
-                </p>
+                <p class="subtitle">Data Analyst • Power BI • ThoughtSpot • GenAI • Data Solutions</p>
+
                 <div class="brand-icons">
-                    <a href="mailto:srajcoep19@gmail.com" class="icon" title="Email"><img src="assets/icon-email.svg"
-                            alt="email"></a>
-                    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener" class="icon"
-                        title="LinkedIn"><img src="assets/icon-linkedin.svg" alt="linkedin"></a>
-                    <a href="tel:+919421478686" class="icon" title="Call"><img src="assets/icon-phone.svg"
-                            alt="phone"></a>
+                    <a href="mailto:srajcoep19@gmail.com" class="icon" title="Email">
+                        <img src="assets/icon-email.svg" alt="Email icon">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sarfraj-shaikh" target="_blank" rel="noopener" class="icon"
+                        title="LinkedIn">
+                        <img src="assets/icon-linkedin.svg" alt="LinkedIn profile icon">
+                    </a>
+
+                    <a href="tel:+919421478686" class="icon" title="Call">
+                        <img src="assets/icon-phone.svg" alt="Phone icon">
+                    </a>
                 </div>
             </div>
+
             <nav class="nav" aria-label="Main navigation">
                 <a href="index.html#intro">Home</a>
                 <a href="index.html#projects">Projects</a>
                 <a href="one-pager.html" class="active">One&nbsp;Pager</a>
                 <a href="index.html#contact" class="cta">Contact</a>
             </nav>
+
         </div>
     </header>
 
+    <!-- MAIN CONTENT -->
     <main class="container section one-pager-content">
+
         <div class="op-header">
-            <h2>Sarfaraj Shaikh: Data Analyst & Solutions Builder</h2>
+            <h2>One-Page Professional Summary</h2>
+            <p class="op-subtitle">Sarfaraj Shaikh • Data Analyst • Power BI • ThoughtSpot • GenAI</p>
         </div>
 
         <div class="op-grid">
-            <!-- LEFT COLUMN: PROFILE & CORE SKILLS -->
+
+            <!-- LEFT COLUMN -->
             <div class="op-column left-col">
+
                 <div class="op-section-title">
                     <span class="icon-title">🧠</span>
                     <h3>AT A GLANCE: PROFILE & CORE SKILLS</h3>
@@ -53,38 +68,38 @@
                 <div class="op-card">
                     <div class="op-icon">📊</div>
                     <div class="op-text">
-                        <h4>Data Analyst with 8+ years of experience</h4>
-                        <p>Turns raw data into meaningful insights across supply chain, operations, and finance.</p>
+                        <h4>Data Analyst with 8+ years</h4>
+                        <p>Transforms raw data into meaningful insights across supply chain, operations, and finance.</p>
                     </div>
                 </div>
 
                 <div class="op-card">
                     <div class="op-icon">📈</div>
                     <div class="op-text">
-                        <h4>40+ Dashboards Delivered</h4>
-                        <p>Built enterprise-level solutions using Power BI and ThoughtSpot for various business
-                            functions.</p>
+                        <h4>40+ dashboards delivered</h4>
+                        <p>Enterprise-grade reporting solutions built using Power BI & ThoughtSpot.</p>
                     </div>
                 </div>
 
                 <div class="op-card">
                     <div class="op-icon">🤖</div>
                     <div class="op-text">
-                        <h4>Expert in Automation & AI</h4>
-                        <p>Develops GenAI agents and Power Automate workflows to streamline business processes.</p>
+                        <h4>Automation & AI</h4>
+                        <p>GenAI agents, Power Automate workflows, and end-to-end automation pipelines.</p>
                     </div>
                 </div>
 
                 <div class="op-card">
                     <div class="op-icon">🛠️</div>
                     <div class="op-text">
-                        <h4>Core Technical Skills</h4>
-                        <p>Power BI, ThoughtSpot, GenAI, SQL, Python, Power Automate, Azure Data Factory.</p>
+                        <h4>Technical Skills</h4>
+                        <p>Power BI, ThoughtSpot, SQL, Python, GenAI, Power Automate, Azure Data Factory.</p>
                     </div>
                 </div>
+
             </div>
 
-            <!-- RIGHT COLUMN: PROJECT IMPACT & CAREER PATH -->
+            <!-- RIGHT COLUMN -->
             <div class="op-column right-col">
                 <div class="op-section-title">
                     <span class="icon-title">🚀</span>
@@ -95,8 +110,7 @@
                     <div class="op-icon">🛡️</div>
                     <div class="op-text">
                         <h4>Enterprise Data Governance</h4>
-                        <p>Designed 17+ dashboards to monitor data quality, manage issues, and support reconciliation.
-                        </p>
+                        <p>Designed 17+ dashboards to monitor data quality, manage issues, and support reconciliation.</p>
                     </div>
                 </div>
 
@@ -104,47 +118,54 @@
                     <div class="op-icon">💰</div>
                     <div class="op-text">
                         <h4>Spend & Procurement Analytics</h4>
-                        <p>Created dashboards for plant-level spend monitoring, vendor analysis, and cost optimization.
-                        </p>
+                        <p>Delivered cost-optimization and vendor analytics dashboards across manufacturing plants.</p>
                     </div>
                 </div>
 
                 <div class="op-card">
                     <div class="op-icon">🏭</div>
                     <div class="op-text">
-                        <h4>Manufacturing Process Optimisation</h4>
-                        <p>Used MES & SQL data to audit process failures and identify production bottlenecks.</p>
+                        <h4>Manufacturing Analytics</h4>
+                        <p>Used MES & SQL data to identify production bottlenecks and reduce machine downtime.</p>
                     </div>
                 </div>
 
-                <!-- Career Timeline Mini -->
                 <div class="op-timeline">
                     <div class="op-timeline-item">
                         <div class="op-role">Data Scientist</div>
                         <div class="op-company">Bank of New York</div>
-                        <div class="op-date">07/2024 - Present</div>
+                        <div class="op-date">2024 – Present</div>
                     </div>
+                    <hr class="op-divider">
+
                     <div class="op-timeline-item">
-                        <div class="op-role">Sr. Executive - Data Analyst</div>
+                        <div class="op-role">Sr. Executive – Data Analyst</div>
                         <div class="op-company">Kohler Co.</div>
-                        <div class="op-date">10/2022 - 07/2024</div>
+                        <div class="op-date">2022 – 2024</div>
                     </div>
+                    <hr class="op-divider">
+
                     <div class="op-timeline-item">
                         <div class="op-role">SCM Analyst</div>
                         <div class="op-company">Husqvarna & Epiroc Group</div>
-                        <div class="op-date">07/2017 - 10/2022</div>
+                        <div class="op-date">2017 – 2022</div>
                     </div>
                 </div>
             </div>
+
         </div>
+
     </main>
 
+    <!-- FOOTER -->
     <footer class="site-footer">
         <div class="container">
             <p>© <span id="year"></span> Sarfaraj Shaikh — Data Portfolio</p>
+            <p><a href="#top" class="back-to-top">↑ Back to top</a></p>
         </div>
     </footer>
-    <script src="script.js"></script>
-</body>
 
+    <script src="script.js"></script>
+
+</body>
 </html>
