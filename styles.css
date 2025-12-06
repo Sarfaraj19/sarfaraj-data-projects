@@ -190,7 +190,7 @@ body {
 
 
 .hero-photo {
-  width: 400px;
+  width: 450px;
   height: 750px;   /* closer to portrait shape */
   object-fit: cover;
   border-radius: 16px;
